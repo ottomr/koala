@@ -8,6 +8,7 @@ public class RestService {
 
     @GetMapping("getInfo")
     public String getInfo() {
+
         return "service-1 called";
     }
 
