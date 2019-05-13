@@ -8,7 +8,7 @@ public class RestService {
 
     @GetMapping("getInfo")
     public String getInfo() {
-        return "service-1 calle2";
+        return "service-1 called by new commit";
     }
 
 }
