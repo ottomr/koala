@@ -11,4 +11,9 @@ public class RestService {
         return "service-1 called by new commit";
     }
 
+
+    @GetMapping("getInfoSecond")
+    public String getInfoSecond() {
+        return "service-2 called by new commit";
+    }
 }
